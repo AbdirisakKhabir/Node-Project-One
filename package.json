@@ -1,15 +1,19 @@
 {
   "name": "node-project-one",
   "version": "1.0.0",
+  "proxy": "http://localhost:9000",
   "description": "Node Project One",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git"
   },
-  "dependencies": {
+  "dependencies": { 
+    "express": "^4.17.3",
     "nanoid": "^3.3.1"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
